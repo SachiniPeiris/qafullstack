@@ -17,6 +17,7 @@ resource "aws_instance" "sachiniweb" {
 
 }
 ######
+#######
 output "instance_ips"
    {
      value = ["${aws_instance.sachiniweb.*.public_ip}"]
