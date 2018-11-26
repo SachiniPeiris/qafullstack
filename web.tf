@@ -16,6 +16,7 @@ resource "aws_instance" "sachiniweb" {
 }
 
 }
+#############
 ######
 #######
 output "instance_ips"
